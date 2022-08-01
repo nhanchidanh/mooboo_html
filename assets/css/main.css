@@ -1,0 +1,179 @@
+.wrapper {
+   overflow: hidden;
+}
+
+body {
+   line-height: 24px;
+   font-size: 13px;
+   font-style: normal;
+   font-weight: 400;
+   visibility: visible;
+   font-family: Libre Franklin, sans-serif;
+   color: #333;
+}
+
+/* Header CSS */
+a.nav-link {
+   font-size: 1.3rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: rgba(0, 0, 0, 1);
+}
+
+.navbar-light .navbar-toggler {
+   color: rgba(0, 0, 0, .5);
+   border: none;
+}
+
+.form-inline .form-control {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.btn,
+.form-control {
+   font-size: 1.3rem;
+}
+
+.dropdown-menu {
+   font-size: 1.3rem;
+}
+
+/* Wp content */
+.wp-content{
+   padding: 0 30px;
+}
+
+/* Slider-banner */
+
+.slider{
+   margin-bottom: 30px;
+}
+
+.carousel-caption {
+   position: absolute;
+   right: 15%;
+   bottom: 50%;
+   transform: translateY(50%);
+   left: 15%;
+   z-index: 10;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   text-align: left;
+   color: #232323;
+   transition: all .2s linear;
+}
+
+.carousel-caption .text-2 {
+   font-size: 2rem;
+}
+
+.carousel-caption .text-1 {
+   font-size: 8rem;
+}
+
+.carousel-caption .text-3,
+.text-4 {
+   font-size: 1.6rem;
+}
+
+.text-2 {
+   animation: text-1 ease-in .8s;
+}
+
+.text-1 {
+   animation: text-1 ease-in .6s;
+
+}
+
+.text-3{
+   animation: text-3 ease-in .8s;
+   padding-bottom: 2rem;
+}
+
+.text-4{
+   animation: text-4 ease-in .9s;
+   position: relative;
+   color: #232323;
+   
+}
+
+.text-4:hover{
+   color: #28a745;
+   text-decoration: none;
+}
+
+.text-4:hover:after{
+   background-color: #28a745;
+
+}
+
+.text-4::after {
+   position: absolute;
+   content: "";
+   display: block;
+   width: 100%;
+   height: 2px;
+   top: 25px;
+   right: 0;
+   background-color: #232323;
+}
+
+@keyframes text-1 {
+   from {
+      opacity: 0;
+      transform: scale(0);
+   }
+
+   to {
+      opacity: 1;
+      transform: scale(1);
+   }
+}
+
+@keyframes text-3 {
+   from {
+      opacity: 0;
+      transform: translateY(60%);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+
+}
+@keyframes text-4 {
+   from {
+      opacity: 0;
+      transform: translateY(100%);
+   }
+
+   to {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+.carousel-control-next, .carousel-control-prev {
+   width: 10%;
+}
+
+.banner-sale {
+   position: relative;
+   margin-bottom: 30px;
+}
+
+.banner-content{
+   position: absolute;
+   top: 12%;
+   left: 15px;
+}
+
+.banner:hover{
+   transition: all .3s ease;
+   opacity: .5;
+}
+
+
