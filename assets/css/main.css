@@ -13,6 +13,11 @@ body {
 }
 
 /* Header CSS */
+.navbar {
+   padding-left: 44px;
+   padding-right: 39px;
+}
+
 a.nav-link {
    font-size: 1.3rem;
 }

@@ -1,14 +1,10 @@
 /*Small devices (landscape phones, 576px and up) */
-@media (max-width: 575px) {
-   
-}
+@media (max-width: 575px) {}
 
-@media (min-width: 576px) and (max-width: 767px){
-   
-}
+@media (min-width: 576px) and (max-width: 767px) {}
 
 @media (max-width: 768px) {
-   .wp-content{
+   .wp-content {
       padding: 0px;
    }
 
@@ -22,27 +18,36 @@
 
    .slider-banner {
       margin: 0 0 30px;
-  }
+   }
 
-  .banner_thumb {
-   margin-top: 30px;
-   margin-bottom: 60px;
-  }
+   .banner_thumb {
+      margin-top: 30px;
+      margin-bottom: 60px;
+   }
 
-  .product-area {
-   position: relative;
-   padding-bottom: 0;
-  }
+   .product-area {
+      position: relative;
+      padding-bottom: 0;
+   }
 
-  .footer_top_container{
-   margin-bottom: 25px;
-  }
-}
+   .footer_top_container {
+      margin-bottom: 25px;
+   }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px){
-   .wp-content{
-      padding: 0 20px;
+   .navbar {
+      padding-left: 15px;
+      padding-right: 7px;
    }
 }
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+   .wp-content {
+      padding: 0 20px;
+   }
+
+   .navbar {
+      padding-left: 34px;
+      padding-right: 29px;
+   }
+}
