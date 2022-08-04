@@ -14,7 +14,18 @@ html {
     line-height: 1.6rem;
     /* font-family: 'Roboto', sans-serif; */
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
+body {
+    line-height: 20px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: Libre Franklin, sans-serif;
+    color: #333;
+ }
 
 
 /* Layout 5 column bootstrap 4 */
