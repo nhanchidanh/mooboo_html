@@ -46,10 +46,6 @@ a.nav-link {
    font-size: 1.3rem;
 }
 
-.form-control {
-   width: 100%;
-}
-
 .form-search-respon {
    display: none;
 }
@@ -86,6 +82,7 @@ a.nav-link {
    padding: 30px 20px;
    top: 136%;
    display: none;
+   z-index: 1;
 }
 
 .cart_list {
@@ -195,7 +192,7 @@ a.nav-link {
 /* Wp content */
 .wp-content {
    padding: 0 30px;
-   margin-top: 50px;
+   /* margin-top: 50px; */
 }
 
 /* Slider-banner */
