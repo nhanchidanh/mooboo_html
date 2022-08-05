@@ -33,14 +33,18 @@ $(document).ready(function () {
       }
    });
 
-   // $(".back-top").click(function (e) { 
-   //    e.preventDefault();
-   //    $('html, body').animate({scrollTop: 0})
-   // });
+   $(".back-top").click(function () { 
+      $('html, body').animate({scrollTop: 0})
+   });
 
    //My Account toggle
    $(".nav-link").click(function (e) { 
       e.preventDefault();
-      $(this).next(".dropdown-menu").slideToggle();
+      $(this).next(".dropdown-menu").slideToggle('fast');
+   });
+
+   // Mini_cart toggle
+   $(".cart-box").click(function () { 
+      $(".mini_cart").stop().slideToggle("fast")
    });
 });

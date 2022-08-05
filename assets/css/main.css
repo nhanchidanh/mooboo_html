@@ -7,7 +7,7 @@
    padding-left: 44px;
    padding-right: 39px;
    background-color: #fff;
-   opacity: 0.9;
+   opacity: 1;
 }
 
 
@@ -47,7 +47,11 @@ a.nav-link {
 }
 
 .form-control {
-   width: 98%;
+   width: 100%;
+}
+
+.form-search-respon {
+   display: none;
 }
 
 .search-input {
@@ -55,6 +59,137 @@ a.nav-link {
    border: none;
    background: transparent;
    margin-left: 18px;
+}
+
+.search-icon {
+   font-size: 1.5rem;
+   color: #747474;
+   vertical-align: middle;
+}
+
+.search-icon:hover {
+   color: var(--success);
+}
+
+/* Mini Cart CSS */
+.cart-box {
+   position: relative;
+}
+
+.mini_cart {
+   position: absolute;
+   width: 345px;
+   background: #fff;
+   -webkit-box-shadow: 0 0 20px 5px rgb(0 0 0 / 10%);
+   box-shadow: 0 0 20px 5px #0000001a;
+   right: 0;
+   padding: 30px 20px;
+   top: 136%;
+   display: none;
+}
+
+.cart_list {
+   max-height: 300px;
+   overflow: auto;
+   padding-right: 15px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.mini_cart .cart_item:first-child {
+   padding-top: 0;
+}
+
+.cart_item {
+   overflow: hidden;
+   padding: 25px 0;
+   border-bottom: 1px solid #ddd;
+   display: flex;
+}
+
+.cart_img_section {
+   width: 30%;
+   float: left;
+   margin-right: 15px;
+}
+
+.cart_img {
+   max-width: 100%;
+   height: auto;
+   transition: all .3s ease;
+}
+
+.cart_info {
+   width: 60%;
+   float: right;
+}
+
+.cart_info .cart_title {
+   font-weight: 500;
+   color: #747474;
+   text-decoration: none;
+}
+
+.cart_title:hover {
+   color: var(--success);
+}
+
+.cart_info .mini_cart_qty {
+   display: block;
+}
+
+.mini_cart_price {
+   display: inline-block;
+}
+
+.cart_remove {
+   width: 10%;
+   text-align: right;
+}
+
+.cart_remove .cart_remove_link {
+   font-size: 20px;
+   color: #747474;
+}
+
+.cart_total {
+   padding: 19px 0;
+}
+
+.cart_total_text {
+   font-size: 1.5rem;
+}
+
+.cart_total .cart_total_price {
+   color: #ff6a28;
+   font-size: 18px;
+   float: right;
+   font-weight: 600;
+}
+
+.cart_button.view_cart {
+   padding-bottom: 25px;
+   display: block;
+}
+
+.cart_button a {
+   border-radius: 3;
+   padding: 11px 0;
+   color: #242424;
+   background: #f6f6f6;
+   display: block;
+   text-align: center;
+   margin-bottom: 0;
+   border: 1px solid #ddd;
+   text-decoration: none;
+   transition: all .3s ease;
+}
+
+.cart_button a:hover {
+   background: #242424;
+   border-color: #242424;
+   color: #fff;
 }
 
 /* Wp content */
@@ -223,9 +358,9 @@ a.nav-link {
 
 /* New Arrivals */
 .product-title h2 {
-   font-size: 36px;
+   font-size: 38px;
    color: #242424;
-   font-weight: 400;
+   font-weight: 600;
    display: inline-block;
    margin-bottom: 11px;
    line-height: 38px;
@@ -252,6 +387,8 @@ a.product-img {
    right: 8px;
    position: absolute;
    transition: all .3s ease;
+   opacity: 0;
+   visibility: hidden;
 }
 
 .product_add .add-link {
@@ -272,12 +409,12 @@ a.product-img {
 
 .product_view {
    position: absolute;
-   bottom: 0;
+   bottom: 10px;
    left: 10px;
    right: 10px;
    border-radius: 3px;
-   /* opacity: 0;
-   visibility: hidden; */
+   opacity: 0;
+   visibility: hidden;
    transition: all .3s ease;
 }
 
@@ -310,11 +447,43 @@ a.product-img {
    text-align: center;
    background: #28a745;
    padding: 0 13px;
+   opacity: 0;
+   visibility: hidden;
 }
 
-.product_section:hover .product_view{
-   display: block;
+.img-back {
+   position: absolute;
+   top: 0;
+   visibility: hidden;
 }
+
+.product_section:hover .img-back {
+   visibility: visible;
+}
+
+.product_section:hover .product_add {
+   visibility: visible;
+   opacity: 1;
+}
+
+.product_section:hover .product_view {
+   visibility: visible;
+   opacity: 1;
+}
+
+.product_section:hover .product_sale {
+   visibility: visible;
+   opacity: 1;
+}
+
+/* .product_section .product-img {
+   overflow: hidden;
+   transition: all .3s ease;
+}
+
+.product_section:hover .product-img img {
+   transform: scale(1.1);
+} */
 
 
 .product_content .product_name {
@@ -532,7 +701,7 @@ a.product-img {
    position: fixed;
    bottom: 15%;
    right: 15px;
-   background: #000;
+   background: rgb(0 0 0 / 80%);
    color: #fff;
    padding: 12px 15px;
    border-radius: 50%;

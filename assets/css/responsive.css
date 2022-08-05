@@ -1,10 +1,37 @@
 /*Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {
+   .btn-search {
+      width: 100%;
+      border: 1px solid #dbdbdb;
+      border-radius: 50px;
+      margin: 8px 18px;
+   }
+
+   .search-input {
+      border: 1px solid #dbdbdb;
+      margin: 8px 18px 0;
+   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
    .carousel-indicators {
       visibility: hidden;
+   }
+
+   .search-input {
+      outline: none;
+      /* border: none; */
+      border: 1px solid #dbdbdb;
+      /* height: auto; */
+      /* padding: 3px 0; */
+      background: transparent;
+      margin-left: 18px;
+      width: 80%;
+   }
+
+   .btn-search {
+      border: 1px solid #dbdbdb;
+      border-radius: 50rem;
    }
 }
 
@@ -64,5 +91,14 @@
    .navbar {
       padding-left: 34px;
       padding-right: 29px;
+   }
+
+   .form-search {
+      display: none;
+   }
+
+   .form-search-respon {
+      display: block;
+      margin-left: auto;
    }
 }

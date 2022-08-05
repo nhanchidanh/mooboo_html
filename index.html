@@ -31,6 +31,12 @@
                         <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/files/logo_150x.png?v=1546680040"
                            alt="logo">
                      </a>
+                     <form action="#" class="form-search-respon form-inline form-row ml-lg-auto">
+                        <input type="text" name="search" id="search" placeholder="Search here..."
+                           class="search-input rounded-pill">
+                        <button class="btn btn-search m-sm-2 "><i
+                              class="search-icon fa-solid fa-magnifying-glass"></i></button>
+                     </form>
                      <button class="navbar-toggler" data-toggle="collapse" data-target="#main-nav">
                         <span class="navbar-toggler-icon"></span>
                      </button>
@@ -66,15 +72,54 @@
                               </ul>
                            </li>
                         </ul>
-                        <form action="#" class="form-inline form-row ml-lg-auto">
+                        <form action="#" class="form-search form-inline form-row ml-lg-auto">
                            <input type="text" name="search" id="search" placeholder="Search here..."
-                              class="search-input rounded-pill">
-                           <button class="btn btn-outline-success rounded-pill m-sm-2 ">Search</button>
+                              class="search-input form-control rounded-pill">
+                           <button class="btn btn-search m-sm-2 "><i
+                                 class="search-icon fa-solid fa-magnifying-glass"></i></button>
                         </form>
                         <div class="cart-box m-2">
                            <a href="#" class="cart-link btn btn-outline-success">
                               <i class="fa-solid fa-cart-shopping"></i>
                            </a>
+                           <div class="mini_cart">
+                              <div class="mini_cart_items">
+                                 <ul class="cart_list">
+                                    <li class="cart_item">
+                                       <div class="cart_img_section">
+                                          <a href="#" class="cart_img_link">
+                                             <img
+                                                src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/17_958b2620-266c-4cd9-be79-6c70e2a28889_small.jpg?v=1546406647"
+                                                alt="cart_img_1" class="cart_img">
+                                          </a>
+                                       </div>
+                                       <div class="cart_info">
+                                          <a href="#" class="cart_title">Demo product title</a>
+                                          <span class="mini_cart_qty">1X <span
+                                                class="mini_cart_price">$50.00</span></span>
+                                       </div>
+
+                                       <div class="cart_remove">
+                                          <a href="#" class="cart_remove_link">
+                                             <i class="fa-solid fa-xmark"></i>
+                                          </a>
+                                       </div>
+                                    </li>
+
+                                 </ul>
+                                 <div class="cart_total">
+                                    <span class="cart_total_text">Total:
+                                       <span class="cart_total_price">$50.00</span>
+                                    </span>
+                                 </div>
+                                 <div class="view_cart cart_button">
+                                    <a href="#">View Cart</a>
+                                 </div>
+                                 <div class="checkout cart_button">
+                                    <a href="#">Check Out</a>
+                                 </div>
+                              </div>
+                           </div>
                         </div>
                      </div>
                </div>
@@ -213,231 +258,112 @@
                   <div class="item">
                      <div class="row">
                         <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <div class="section-img">
-                                    <a href="#" class="product-img">
-                                       <img
-                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_5b264d75-2d71-4121-8dd1-5269f5bc033a_large.jpg?v=1546406774"
-                                          alt="hinh1">
-                                    </a>
-                                    <div>
-                                       <div class="product_add">
-                                          <a href="#" class="add-link">
-                                             <i class="fa-solid fa-cart-plus"></i>
-                                          </a>
-                                       </div>
-                                       <div class="product_view">
-                                          <a href="#" class="view-link">+ Quick View</a>
-                                       </div>
-                                       <div class="product_sale">
-                                          <span class="percent-count">-18%</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/14_large.jpg?v=1546406367"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <div class="section-img">
-                                    <a href="#" class="product-img">
-                                       <img
-                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_5b264d75-2d71-4121-8dd1-5269f5bc033a_large.jpg?v=1546406774"
-                                          alt="hinh1">
-                                    </a>
-                                    <div>
-                                       <div class="product_add">
-                                          <a href="#" class="add-link">
-                                             <i class="fa-solid fa-cart-plus"></i>
-                                          </a>
-                                       </div>
-                                       <div class="product_view">
-                                          <a href="#" class="view-link">+ Quick View</a>
-                                       </div>
-                                       <div class="product_sale">
-                                          <span class="percent-count">-18%</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/14_large.jpg?v=1546406367"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/2_large.jpg?v=1546405215"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/18_2d39eeb8-bdb6-45f4-8e47-c8ab584133bb_large.jpg?v=1546406655"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/20_34ee69fa-2260-454d-ba9c-ba0464f93d17_large.jpg?v=1546407714"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/18_a118ddc5-55b0-4859-9e38-426c1d5cc8e7_large.jpg?v=1546407655"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
+                           <div class="product_section">
+                              <div class="section-img">
                                  <a href="#" class="product-img">
                                     <img
                                        src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_5b264d75-2d71-4121-8dd1-5269f5bc033a_large.jpg?v=1546406774"
                                        alt="hinh1">
+                                    <img class="img-back"
+                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/22_7fc6294e-154c-4b54-85d6-d3f28f00f4e3_large.jpg?v=1546408292"
+                                       alt="hinh2">
                                  </a>
+                                 <div>
+                                    <div class="product_add">
+                                       <a href="#" class="add-link">
+                                          <i class="fa-solid fa-cart-plus"></i>
+                                       </a>
+                                    </div>
+                                    <div class="product_view">
+                                       <a href="#" class="view-link">+ Quick View</a>
+                                    </div>
+                                    <div class="product_sale">
+                                       <span class="percent-count">-18%</span>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="product_content text-left">
+                                 <h3 class="product_name">
+                                    <a href="#">Demo Product Title</a>
+                                 </h3>
+                                 <div class="price-box">
+                                    <span class="current-price">300.000vnd</span>
+                                    <span class="old-price text-muted">500.000vnd</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="product_section">
+                              <div class="section-img">
+                                 <a href="#" class="product-img">
+                                    <img
+                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/1_large.jpg?v=1546405215"
+                                       alt="hinh2">
+                                    <img class="img-back"
+                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/2_large.jpg?v=1546405215"
+                                       alt="hinh1">
+                                 </a>
+                                 <div>
+                                    <div class="product_add">
+                                       <a href="#" class="add-link">
+                                          <i class="fa-solid fa-cart-plus"></i>
+                                       </a>
+                                    </div>
+                                    <div class="product_view">
+                                       <a href="#" class="view-link">+ Quick View</a>
+                                    </div>
+                                    <div class="product_sale">
+                                       <span class="percent-count">-18%</span>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="product_content text-left">
+                                 <h3 class="product_name">
+                                    <a href="#">Demo Product Title</a>
+                                 </h3>
+                                 <div class="price-box">
+                                    <span class="current-price">300.000vnd</span>
+                                    <span class="old-price text-muted">500.000vnd</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/19_fbcc4c05-8e96-4fb9-a305-cca1416d469d_large.jpg?v=1546407706"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/20_34ee69fa-2260-454d-ba9c-ba0464f93d17_large.jpg?v=1546407714"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -447,6 +373,7 @@
                                        <span class="old-price text-muted">500.000vnd</span>
                                     </div>
                                  </div>
+
                               </div>
                            </div>
                         </div>
@@ -455,11 +382,30 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/16_large.jpg?v=1546406584"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/13_f86a0e6e-7174-4f4d-b3f0-246eac02041b_large.jpg?v=1546406358"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/14_large.jpg?v=1546406367"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -479,11 +425,30 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/10_large.jpg?v=1546405787"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/9_68603096-502f-4896-9da6-1dab31605dd9_large.jpg?v=1646301657"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/10_6d8ce78a-4a50-47f0-b938-d1238962411f_large.jpg?v=1646301658"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -501,11 +466,282 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/7_large.jpg?v=1546406044"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/18_a118ddc5-55b0-4859-9e38-426c1d5cc8e7_large.jpg?v=1546407655"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/17_958b2620-266c-4cd9-be79-6c70e2a28889_large.jpg?v=1546406647"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/3_large.jpg?v=1546405526"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/4_large.jpg?v=1546405526"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/15_03be3f50-1d2a-4c60-af61-e34c1870c7f8_large.jpg?v=1546406576"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/16_large.jpg?v=1546406584"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/8_large.jpg?v=1546406063"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/7_large.jpg?v=1546406044"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/17_958b2620-266c-4cd9-be79-6c70e2a28889_large.jpg?v=1546406647"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/18_a118ddc5-55b0-4859-9e38-426c1d5cc8e7_large.jpg?v=1546407655"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/7_large.jpg?v=1546406044"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/8_large.jpg?v=1546406063"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/15_03be3f50-1d2a-4c60-af61-e34c1870c7f8_large.jpg?v=1546406576"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/16_large.jpg?v=1546406584"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -553,11 +789,30 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_5b264d75-2d71-4121-8dd1-5269f5bc033a_large.jpg?v=1546406774"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/17_958b2620-266c-4cd9-be79-6c70e2a28889_large.jpg?v=1546406647"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/18_a118ddc5-55b0-4859-9e38-426c1d5cc8e7_large.jpg?v=1546407655"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -577,11 +832,30 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_5b264d75-2d71-4121-8dd1-5269f5bc033a_large.jpg?v=1546406774"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/8_large.jpg?v=1546406063"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/7_large.jpg?v=1546406044"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -601,11 +875,30 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/2_large.jpg?v=1546405215"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/13_f86a0e6e-7174-4f4d-b3f0-246eac02041b_large.jpg?v=1546406358"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/14_large.jpg?v=1546406367"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -625,11 +918,74 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/16_large.jpg?v=1546406584"
-                                       alt="hinh1">
-                                 </a>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/19_fbcc4c05-8e96-4fb9-a305-cca1416d469d_large.jpg?v=1546407706"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/20_34ee69fa-2260-454d-ba9c-ba0464f93d17_large.jpg?v=1546407714"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
+                                 <div class="product_content text-left">
+                                    <h3 class="product_name">
+                                       <a href="#">Demo Product Title</a>
+                                    </h3>
+                                    <div class="price-box">
+                                       <span class="current-price">300.000vnd</span>
+                                       <span class="old-price text-muted">500.000vnd</span>
+                                    </div>
+                                 </div>
+
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="item">
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="img-fluid">
+                              <div class="product_section">
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/1_large.jpg?v=1546405215"
+                                          alt="hinh2">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/2_large.jpg?v=1546405215"
+                                          alt="hinh1">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
+                                    </div>
+                                 </div>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -649,35 +1005,30 @@
                         <div class="col-12">
                            <div class="img-fluid">
                               <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/7_large.jpg?v=1546406044"
-                                       alt="hinh1">
-                                 </a>
-                                 <div class="product_content text-left">
-                                    <h3 class="product_name">
-                                       <a href="#">Demo Product Title</a>
-                                    </h3>
-                                    <div class="price-box">
-                                       <span class="current-price">300.000vnd</span>
-                                       <span class="old-price text-muted">500.000vnd</span>
+                                 <div class="section-img">
+                                    <a href="#" class="product-img">
+                                       <img
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_5b264d75-2d71-4121-8dd1-5269f5bc033a_large.jpg?v=1546406774"
+                                          alt="hinh1">
+                                       <img class="img-back"
+                                          src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/22_7fc6294e-154c-4b54-85d6-d3f28f00f4e3_large.jpg?v=1546408292"
+                                          alt="hinh2">
+                                    </a>
+                                    <div>
+                                       <div class="product_add">
+                                          <a href="#" class="add-link">
+                                             <i class="fa-solid fa-cart-plus"></i>
+                                          </a>
+                                       </div>
+                                       <div class="product_view">
+                                          <a href="#" class="view-link">+ Quick View</a>
+                                       </div>
+                                       <div class="product_sale">
+                                          <span class="percent-count">-18%</span>
+                                       </div>
                                     </div>
                                  </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="item">
-                     <div class="row">
-                        <div class="col-12">
-                           <div class="img-fluid">
-                              <div class="product_section">
-                                 <a href="#" class="product-img">
-                                    <img
-                                       src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/18_2d39eeb8-bdb6-45f4-8e47-c8ab584133bb_large.jpg?v=1546406655"
-                                       alt="hinh1">
-                                 </a>
+
                                  <div class="product_content text-left">
                                     <h3 class="product_name">
                                        <a href="#">Demo Product Title</a>
@@ -789,9 +1140,9 @@
                </div>
             </div>
          </div>
-         <a href="#" class="back-top">
+         <span class="back-top">
             <i class="fa-solid fa-angles-up"></i>
-         </a>
+         </span>
       </footer>
    </div>
 
