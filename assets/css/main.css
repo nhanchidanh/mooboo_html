@@ -16,11 +16,11 @@ a.nav-link {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-   color: #28a745;
+   color: var(--primary-color);
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-   color: var(--success);
+   color: var(--primary-color);
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -63,13 +63,24 @@ a.nav-link {
    vertical-align: middle;
 }
 
-.search-icon:hover {
-   color: var(--success);
+.btn-search:hover .search-icon {
+   color: var(--primary-color);
 }
 
 /* Mini Cart CSS */
 .cart-box {
    position: relative;
+}
+
+.cart-link {
+   color: #747474;
+   outline: none;
+   transition: all .3s ease;
+}
+
+.cart-link:hover {
+   color: var(--primary-color);
+   transform: scale(1.5);
 }
 
 .mini_cart {
@@ -129,7 +140,7 @@ a.nav-link {
 }
 
 .cart_title:hover {
-   color: var(--success);
+   color: var(--primary-color);
 }
 
 .cart_info .mini_cart_qty {
@@ -251,12 +262,12 @@ a.nav-link {
 }
 
 .text-4:hover {
-   color: #28a745;
+   color: var(--primary-color);
    text-decoration: none;
 }
 
 .text-4:hover:after {
-   background-color: #28a745;
+   background-color: var(--primary-color);
 
 }
 
@@ -401,7 +412,7 @@ a.product-img {
 }
 
 .product_add:hover .add-link {
-   color: #28a745;
+   color: var(--primary-color);
 }
 
 .product_view {
@@ -431,7 +442,7 @@ a.product-img {
 }
 
 .product_view:hover .view-link {
-   color: #28a745;
+   color: var(--primary-color);
    text-decoration: none;
 }
 
@@ -442,7 +453,7 @@ a.product-img {
    border-radius: 2px;
    min-width: 60px;
    text-align: center;
-   background: #28a745;
+   background: var(--primary-color);
    padding: 0 13px;
    opacity: 0;
    visibility: hidden;
@@ -497,7 +508,7 @@ a.product-img {
 }
 
 .product_content .product_name:hover a {
-   color: var(--success);
+   color: var(--primary-color);
 }
 
 .price-box .current-price {
@@ -528,7 +539,7 @@ a.product-img {
 
 .owl-prev:hover,
 .owl-next:hover {
-   color: var(--success) !important;
+   color: var(--primary-color) !important;
 }
 
 .product-area {
@@ -605,7 +616,7 @@ a.product-img {
 
 .footer_top_item:hover .footer_top_link {
    text-decoration: none;
-   color: var(--success);
+   color: var(--primary-color);
 }
 
 .footer_top_item .footer_top_link {
@@ -685,6 +696,11 @@ a.product-img {
    width: 100%;
    border: 0;
    transition: all .3s ease;
+}
+
+.btn-subscribe:hover {
+   color: #fff;
+   background-color: var(--primary-color);
 }
 
 .footer_border {

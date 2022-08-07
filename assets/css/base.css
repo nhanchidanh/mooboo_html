@@ -1,8 +1,7 @@
 :root {
     --text-color: #333;
     --border-color: #dbdbdb;
-    /* --primary-color: #ff7d28; */
-    --header-height:
+    --primary-color: #ff7d28;
 }
 
 * {

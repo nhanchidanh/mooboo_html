@@ -50,6 +50,7 @@ $(document).ready(function () {
 
    // Mini_cart toggle
    $(".cart-box").click(function () { 
-      $(".mini_cart").stop().slideToggle("fast")
+      $(".mini_cart").stop().slideToggle("fast");
+      return false;
    });
 });
