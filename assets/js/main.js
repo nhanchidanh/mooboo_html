@@ -42,8 +42,8 @@ $(document).ready(function () {
       $('html, body').animate({scrollTop: 0})
    });
 
-   //My Account toggle
-   $(".nav-link").click(function (e) { 
+   // My Account toggle
+   $(".dropdown .nav-link").click(function (e) { 
       e.preventDefault();
       $(this).next(".dropdown-menu").slideToggle('fast');
    });
