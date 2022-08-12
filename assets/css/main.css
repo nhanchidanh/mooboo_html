@@ -715,14 +715,15 @@ a.product-img {
    position: fixed;
    bottom: 15%;
    right: 15px;
-   background: rgb(0 0 0 / 80%);
+   background: rgb(0 0 0 / 1);
    color: #fff;
-   padding: 12px 15px;
+   padding: 10px 15px;
    border-radius: 50%;
    font-size: 2rem;
    z-index: 1;
    transition: all .3s ease;
    display: none;
+   border: 2px solid #fff;
 }
 
 .back-top:hover i {

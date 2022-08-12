@@ -39,7 +39,7 @@ $(document).ready(function () {
    });
 
    $(".back-top").click(function () { 
-      $('html, body').animate({scrollTop: 0})
+      $('html, body').scrollTop({scrollTop: 0})
    });
 
    // My Account toggle
