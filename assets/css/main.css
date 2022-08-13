@@ -46,6 +46,10 @@ a.nav-link {
    font-size: 1.3rem;
 }
 
+.dropdown-item:active {
+   background: none;
+}
+
 .form-search-respon {
    display: none;
 }
@@ -728,4 +732,3 @@ a.product-img {
    color: #ccc;
    transform: translateY(-4px);
 }
-
