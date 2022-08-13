@@ -55,6 +55,8 @@ a.nav-link {
    border: none;
    background: transparent;
    margin-left: 18px;
+   height: 35px;
+   line-height: 35px;
 }
 
 .search-icon {
@@ -668,11 +670,7 @@ a.product-img {
    margin-bottom: 10px;
 }
 
-.form {
-   margin-bottom: 0;
-}
-
-.form input {
+.newsletter-form input {
    width: 100%;
    padding: 0 20px;
    border: 1px solid #e1e1e1;
@@ -682,7 +680,7 @@ a.product-img {
    outline: none;
 }
 
-.form button {
+.newsletter-form button {
    background-color: #242424;
    color: #ffffff;
    border-radius: 3px;
