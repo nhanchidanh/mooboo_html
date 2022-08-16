@@ -43,8 +43,7 @@ $(document).ready(function () {
    });
 
    // My Account toggle
-   $(".dropdown .nav-link").click(function (e) { 
-      e.preventDefault();
+   $(".dropdown .nav-link").click(function () { 
       $(this).next(".dropdown-menu").slideToggle('fast');
    });
 
