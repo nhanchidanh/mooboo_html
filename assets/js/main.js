@@ -52,4 +52,10 @@ $(document).ready(function () {
       $(".mini_cart").stop().slideToggle("fast");
       return false;
    });
+
+   // Dropdown Caterogy
+   $(".btn.dropdown-toggle").click(function () {
+      $(this).toggleClass("show");
+      $(this).next(".dropdown-menu").slideToggle('fast');
+   });
 });

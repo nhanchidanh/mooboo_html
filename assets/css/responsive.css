@@ -44,22 +44,6 @@
    .form-inline .form-control {
       width: 100%;
    }
-
-
-
-
-   /* .search-input {
-      outline: none;
-      border: 1px solid #dbdbdb;
-      background: transparent;
-      margin-left: 18px;
-      width: 80%;
-   }
-
-   .btn-search {
-      border: 1px solid #dbdbdb;
-      border-radius: 50rem;
-   } */
 }
 
 @media (max-width: 767px) {
