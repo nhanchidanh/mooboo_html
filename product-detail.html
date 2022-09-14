@@ -11,6 +11,7 @@
    <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
    <link rel="stylesheet" href="assets/css/base.css">
    <link rel="stylesheet" href="assets/css/main.css">
    <link rel="stylesheet" href="assets/css/product-detail.css">
@@ -184,7 +185,7 @@
             </div>
          </div>
       </header>
-      
+
 
       <main class="wp-content">
          <div class="breadcrumb_content">
@@ -206,7 +207,41 @@
                <div class="row">
                   <div class="col-md-5">
                      <div class="product-details-img">
-                        <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/3_dff75222-b0c9-41a3-94ad-baa9298281d2_1024x1024.jpg?v=1546406620" alt="product-img">
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                           class="swiper mySwiper2">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/2_1024x1024.jpg?v=1546405215" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/1.jpg?v=1546405215" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_6312f5a0-e6d8-403e-8c64-555b1b808cf6.jpg?v=1546408292" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/22_7fc6294e-154c-4b54-85d6-d3f28f00f4e3_large.jpg?v=1546408292" />
+                              </div>
+                           </div>
+                           <div class="swiper-button-next"></div>
+                           <div class="swiper-button-prev"></div>
+                        </div>
+                        <div thumbsSlider="" class="swiper mySwiper">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/2_1024x1024.jpg?v=1546405215" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/1.jpg?v=1546405215" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/21_6312f5a0-e6d8-403e-8c64-555b1b808cf6.jpg?v=1546408292" />
+                              </div>
+                              <div class="swiper-slide">
+                                 <img src="https://cdn.shopify.com/s/files/1/0162/4018/1312/products/22_7fc6294e-154c-4b54-85d6-d3f28f00f4e3_large.jpg?v=1546408292" />
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                   <div class="col-md-7">
@@ -215,21 +250,24 @@
                            <h1 class="product-title">Demo Product Title</h1>
                            <div class="rating-box">
                               <span class="rating-star">
-                                  <i class="fa-solid fa-star"></i>
-                                  <i class="fa-solid fa-star"></i>
-                                  <i class="fa-solid fa-star"></i>
-                                  <i class="fa-regular fa-star-half-stroke"></i>
-                                  <i class="fa-regular fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-regular fa-star-half-stroke"></i>
+                                 <i class="fa-regular fa-star"></i>
                               </span>
-                          </div>
-                          <div class="product_price">
+                           </div>
+                           <div class="product_price">
                               <span class="current_price">$29.00</span>
-                          </div>
-                          <div class="product_desc">
-                              <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
-                          </div>
-                          <button class="btn btn-dark btn-buy" type="submit">BUY NOW</button>
-                          <button class="btn btn-dark btn-add" type="submit">ADD TO CART</button>
+                           </div>
+                           <div class="product_desc">
+                              <p>I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                 pain was born and I will give you a complete account of the system, and expound the
+                                 actual teachings of the great explorer of the truth, the master-builder of human
+                                 happiness.</p>
+                           </div>
+                           <button class="btn btn-dark btn-buy" type="submit">BUY NOW</button>
+                           <button class="btn btn-dark btn-add" type="submit">ADD TO CART</button>
                         </form>
                      </div>
                   </div>
@@ -340,7 +378,28 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
    <script src="assets/js/main.js"></script>
+
+   <!-- Initialize Swiper -->
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+         spaceBetween: 10,
+         slidesPerView: 4,
+         freeMode: true,
+         watchSlidesProgress: true,
+      });
+      var swiper2 = new Swiper(".mySwiper2", {
+         spaceBetween: 10,
+         navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+         },
+         thumbs: {
+            swiper: swiper,
+         },
+      });
+   </script>
 </body>
 
 </html>

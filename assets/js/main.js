@@ -4,6 +4,29 @@ $(document).ready(function () {
    // alert(height_nav);
    $(".wp-content").css("margin-top", height_nav);
 
+   $('.slider-img').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: true,
+      navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+      dots: true,
+      autoplay: false,
+      autoplayTimeout: 1000,
+      responsive: {
+         0: {
+            items: 1,
+            nav: true
+         },
+         767: {
+            items: 1
+         },
+         1169: {
+            items: 1,
+            merge: true
+         },
+      }
+   })
+   
    $('.owl-carousel').owlCarousel({
       loop: true,
       margin: 30,
@@ -26,6 +49,7 @@ $(document).ready(function () {
          },
       }
    })
+   
 
 
    // Back-top
